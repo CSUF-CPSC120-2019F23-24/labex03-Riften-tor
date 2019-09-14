@@ -37,7 +37,7 @@ int main()
   // TODO#3: update the following statement to include escape characters
   // note that clang does not require an escape character on the single quote
   // but many other compilers do require it
-  std::cout << "'Y'\0";
+  std::cout << "\'Y\'" << std::endl;
 
   std::cout << std::endl; // blank line to separate the different exercises
 
